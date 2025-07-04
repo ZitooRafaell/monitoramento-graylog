@@ -30,7 +30,17 @@ def send_telegram_alert(nome, url, status_erro):
 urls = [
     ("https://graylog-prod-inovacarreira.santoro.in/welcome", "Graylog Inovacarreira Produção"),
     ("https://graylog-stage-inovacarreira.santoro.in/", "Graylog Inovacarreira Stage"),
-    ("https://graylog.piwi.com.br/", "Graylog Piwi")
+    ("https://graylog.piwi.com.br/", "Graylog Piwi"),
+    ("https://signoz.piwi.com.br/", "Signoz Piwi"),
+    ("http://smallgrafana.santoro.in:3000/login", "Grafana Small"),
+    ("https://monitor.santoro.in/?orgId=1&from=now-6h&to=now&timezone=browser", "Grafana SantoroIN"),
+    ("https://grafana-aws.tray.net.br", "Grafana Tray"),
+    ("https://inframonitor.agrinvest.agr.br", "Grafana Agrinvest"),
+    ("http://futmonitor.santoro.in:3000", "Grafana FutFanatics"),
+    ("https://inframonitor.happy.com.br/login", "Grafana Happy"),
+    ("https://grafana.com/auth/sign-in/", "Grafana Piwi"),
+    ("http://senior-monitor.santoro.in:3000", "Grafana Senior"),
+    ("http://186.227.40.91:3051/", "Grafana Wepass")
 ]
 
 # Lista de mensagens de erro comuns em páginas web
